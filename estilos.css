@@ -1,0 +1,429 @@
+
+/*{border: 1px solid #FF0000}/
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Romanesco&display=swap');
+
+*/ 
+body{
+    margin:0px;
+}
+header{
+    margin:0px;
+}
+/*
+
+/* 1. Encabezado */
+header{
+    background-color: #A3A656;
+    height: 70px;
+}
+
+#opciones-navegacion1{
+    display: inline-block;
+    margin: 0px;
+    padding-left: 55px;
+    margin-top: 10px;
+}
+
+#opciones-navegacion1 ul li{
+    display: inline-block;
+    padding: 0px 15px;
+}
+
+#opciones-navegacion1 ul{
+    display: inline-block;
+    padding: 0px;
+}
+
+#opciones-navegacion1 ul li a{
+    color: #000;
+    font-size: 16px;
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+}
+
+/*Barra de navegacion parte derecha*/
+#opciones-navegacion2{
+    float: right;
+    margin-top: 10px;
+}
+
+#menu-usuario{
+    display: inline-block;
+    padding: 0px 35px;
+}
+
+#menu-usuario img{
+    display: inline-block;
+    height: 45px;
+}
+
+#menu-usuario p{
+    display: inline-block;
+    position: relative;
+    bottom: 15px;
+}
+
+
+#menu-idioma{
+    display: inline-block;
+}
+
+#menu-idioma img{
+    display: inline-block;
+    padding-right: 5px;
+    margin-bottom: 5px;
+}
+
+#menu-idioma p{
+    display: inline-block;
+    position: relative;
+    bottom: 15px;
+}
+
+#flecha{
+    position: relative;
+    height: 11px;
+    bottom: 15px;
+}
+
+#bandera{
+    bottom: 15px;
+}
+
+#menu-usuario a{
+    color: #000;
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 16px ;
+}
+
+#menu-idioma a{
+    color: #000;
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 16px ;
+}
+ /*Cambio de color barras de navegacion*/
+#opciones-navegacion1 ul li a:hover {
+    color: #FFFF00; 
+}
+
+#opciones-navegacion2 p a:hover{
+    color: #FFFF00;
+}
+
+/*2. Portada*/
+#nombre-SPA{
+    background-image: url("../images/main.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 655px;
+}
+
+#frase-SPA{
+    display: inline-block;
+    margin-left: 205px;
+    margin-top: 75px;
+}
+
+#frase-SPA h1{
+    font-size: 96px;
+    font-family: 'Romanesco';
+    font-weight: 400;
+    margin-bottom: 35px;
+}
+
+#frase-SPA h2{
+    color: #000;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 32px ;
+    margin: 0px;
+}
+
+/*3. Buscadores*/
+#buscadores{
+    background-color: #F2F6F6;
+    text-align: center;
+    height: 100px;
+    
+    
+}
+
+#cita{
+    display: inline-block;
+    margin-right: 20px;
+}
+
+#promocion{
+    display: inline-block;
+}
+
+#cita p{
+    color: #000;
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 16px ;
+}
+
+#promocion p{
+    color: #000;
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 16px ;
+}
+
+#reservar-search{
+    border-radius: 12px;
+    border: none; 
+    outline: none;
+    width: 230px;
+    height: 50px;
+    margin-left: 15px;
+}
+
+#promocional-search{
+    border-radius: 12px;
+    border: none; 
+    outline: none;
+    width: 170px;
+    height: 50px;
+    margin-left: 15px;
+}
+
+#promocional-search::placeholder {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #9E9A9A;
+}
+
+/*4. Tipos de masajes*/
+#tipos-masajes{
+    margin-top: 100px;
+    margin-bottom: 65px;
+    text-align: center;
+    
+}
+
+#tipos-masajes div{
+    display: inline-block;
+    width: 310px;
+    margin: 0px 67px;
+    text-align: center;
+}
+
+#tipos-masajes h2{
+    border-radius: 15px 15px 0 0;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    padding-top:px;
+    height: 60px;
+    text-align: center;
+    background-color: #A3A656;
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 32px ;
+    
+}
+
+.imagen-masaje img{
+    width: 309px;
+}
+
+.imagen-masaje p{
+    margin-top: 8px;
+    text-align: left;
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px ;
+    
+}
+
+#tipos-masajes p{
+    position: relative;
+}
+
+#tipos-masajes ul{
+    list-style: none;
+    margin: 0px;
+    text-align: center;
+    padding: 0;
+    
+}
+
+#tipos-masajes ul li{
+    margin: 0px;
+    display: inline-block;
+    align-content: center;
+}
+
+.precio{
+    color: #000;
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 28px;
+    padding-right: 132px;
+}
+
+.reservar-masaje{
+    background-color: #A3A656;
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    border-radius: 35px;
+    width: 115px;
+    height: 40px;
+    margin-left: auto;
+}
+
+/*cambio de color botones reservar masaje*/
+
+.reservar-masaje:hover{
+    background-color: #384001;
+}
+
+/*5. Tipos de membresías*/
+
+#subtitulo{
+    text-align: center;
+    font-size: 32px;
+    font-weight: 600;
+    font-family: 'Inter', sans-serif;
+    margin-top: 30px;
+    padding-top: 40px;  
+}
+
+#membresias{
+    height: 770px;
+    background-color: #F2F6F6;
+    text-align: center;
+}
+
+
+#membresias ul li{
+    text-align: left;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    margin-left: 35px;
+}
+
+#membresias article{
+    display: inline-block;
+    vertical-align: top;
+    margin: 80px 95px;
+}
+
+.condiciones{
+    border-radius: 35px;
+    background-color: #A3A656;
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    width: 270px;
+    height: 55px;
+    margin-bottom: 20px;
+}
+
+.imagen-plan{
+    background-color: #FFF;
+    border: 12px solid #384001;
+    border-radius: 50%;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    width: 233px;
+    height: 233px;
+     
+}
+
+.plan{
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    margin-top: 10px;
+}
+
+
+/*Cambio de color boton condiciones*/
+.condiciones:hover{
+    background-color: #384001;
+}
+
+
+/*6.PIE de página*/
+footer{
+    background-color: #384001;
+    height: 97px;
+}
+
+#menu-pie-izq{
+    display: inline-block;
+    padding-left: 35px;
+    margin-top: 20px;
+}
+
+#menu-pie-izq ul{
+    display: inline-block;
+    padding: 0px;
+}
+
+#menu-pie-izq ul li{
+    display: inline-block;
+    padding: 0px 35px;
+}
+
+#menu-pie-izq ul li a{
+    color: #A3A656;
+    font-size: 16px;
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+#menu-pie-der{
+    float: right;
+    margin-top: 20px;
+    padding-right: 30px;
+}
+
+#menu-pie-der p{
+    display: inline-block;
+    position: relative;
+    color: #A3A656;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    bottom: 10px;
+    padding-right: 30px;
+}
+
+#menu-pie-der img{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    padding: 0px 20px;  
+}
+
+#menu-pie-izq ul li a:hover{
+    color: #FFFF00;
+}
+
+#menu-pie-der p:hover{
+    color: #FFFF00;
+}
+
+
+
