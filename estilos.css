@@ -10,6 +10,7 @@ body{
 header{
     margin:0px;
 }
+
 /*
 
 /* 1. Encabezado */
@@ -118,7 +119,7 @@ header{
 
 /*2. Portada*/
 #nombre-SPA{
-    background-image: url("../images/main.png");
+    background-image: url("./images/main.png");
     background-repeat: no-repeat;
     background-size: cover;
     height: 655px;
